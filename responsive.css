@@ -1,0 +1,600 @@
+@media all and (min-width: 1280px) and (max-width: 1580px) {
+  .lambo{
+    width:600px;
+  }
+  footer{
+    height: 70vh;
+  }
+  .contact-info h1{
+    font-size:1.5em;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .lambo{
+    width:550px;
+  }
+  nav{
+    padding:2rem 3rem;
+  }
+  a.underline-hover-effect {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap:wrap;
+  }
+  footer{
+    height: 70vh;
+  }
+  .contact-info{
+    width:fit-content;
+  }
+  .contact{
+    gap:50px;
+    padding: 2rem 3rem;
+  }
+  .contact-info h1{
+    font-size:1.2em;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .lambo{
+    display:none;
+  }
+  nav{
+    width:100%;
+    padding: 2rem 2rem;
+  }
+  .logo{
+    font-size:1em;
+  }
+  a.underline-hover-effect {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap:wrap;
+    font-size:0.8em;
+  }
+  .socials-nav{
+    gap:8px;
+  }
+  .square{
+    width: 500px;
+    height: 500px;
+    right:-60%;
+    border: 75px solid rgb(168, 149, 255);
+  }
+  .text{
+    position:absolute;
+    width:100%;
+    text-align: center;
+  }
+  .text a{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+  .explore-btn{
+    justify-content: center;
+    width:100%;
+  }
+  .container{
+    height: 140vh;
+  }
+  .wrapper{
+    height: fit-content;
+  }
+  .car-text h1{
+    font-size:2em;
+  }
+  .car-text p{
+    font-size:1em;
+  }
+  .ferrari {
+    width: 261px;
+    position: relative;
+    right: 1px;
+  }
+  .interest a{
+    display:flex;
+    justify-content: center;
+  }
+  footer{
+    height:140vh;
+  }
+  .contact{
+    flex-direction: column;
+    gap:30px;
+  }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .lambo{
+    display:none;
+  }
+  nav{
+    width:100%;
+    padding: 2rem 2rem;
+  }
+  .logo{
+    display:none;
+  }
+  a.underline-hover-effect {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap:wrap;
+    font-size:0.8em;
+  }
+  nav{
+    flex-direction:column;
+    padding:2rem;
+  }
+  .square{
+    width: 500px;
+    height: 500px;
+    right:-60%;
+    border: 75px solid rgb(168, 149, 255);
+  }
+  .text{
+    position:absolute;
+    width:100%;
+    text-align: center;
+  }
+  .text a{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+  .explore-btn{
+    justify-content: center;
+    width:100%;
+  }
+  .container{
+    height: 160vh;
+  }
+  .wrapper{
+    height: fit-content;
+    flex-direction: column;
+  }
+  .car-text h1{
+    font-size:2em;
+  }
+  .car-text p{
+    font-size:1em;
+  }
+  .bg-car{
+    padding:0;
+    justify-content: center;
+    text-align: center;
+  }
+  .discover-btn{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    width:100%;
+  }
+  .ferrari {
+    display:none;
+  }
+  .interest a{
+    display:flex;
+    justify-content: center;
+  }
+  .wrapper-reviews{
+    flex-direction: column;
+  }
+  .interest{
+    flex-direction:column;
+  }
+  footer{
+    height:140vh;
+  }
+  .contact{
+    flex-direction: column;
+    gap:30px;
+  }
+  .maps{
+    width:480px;
+  }
+  .contact-info h1{
+    font-size:1.5em;
+  }
+  .contact{
+    padding:2rem 2rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .lambo{
+    display:none;
+  }
+  nav{
+    width:100%;
+    padding: 2rem 2rem;
+  }
+  .logo{
+    display:none;
+  }
+  a.underline-hover-effect {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap:wrap;
+    font-size:0.8em;
+  }
+  nav{
+    flex-direction:column;
+    padding:2rem;
+  }
+  nav ul{
+    gap:10px;
+  }
+  .square{
+    width: 500px;
+    height: 500px;
+    right:-80%;
+    border: 75px solid rgb(168, 149, 255);
+  }
+  .text{
+    position:absolute;
+    width:100%;
+    text-align: center;
+  }
+  .text a{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+  .explore-btn{
+    justify-content: center;
+    width:100%;
+  }
+  .container{
+    height: 100%;
+  }
+  .wrapper{
+    height: fit-content;
+    flex-direction: column;
+  }
+  .car-text h1{
+    font-size:2em;
+  }
+  .car-text p{
+    font-size:1em;
+  }
+  .bg-car{
+    padding:0;
+    justify-content: center;
+    text-align: center;
+  }
+  .discover-btn{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    width:100%;
+  }
+  .ferrari {
+    display:none;
+  }
+  .interest a{
+    display:flex;
+    justify-content: center;
+  }
+  .wrapper-reviews{
+    flex-direction: column;
+  }
+  .interest{
+    flex-direction:column;
+  }
+  .interest h1{
+    overflow-y:hidden;
+  }
+  footer{
+    height:140vh;
+  }
+  .contact{
+    flex-direction: column;
+    gap:30px;
+  }
+  .maps{
+    width:420px;
+  }
+  .contact-info h1{
+    font-size:1.5em;
+  }
+  .contact{
+    padding:2rem 2rem;
+  }
+}
+@media all and (max-width: 420px){
+  .lambo{
+    display:none;
+  }
+
+  nav{
+    display:none;
+  }
+
+  .square{
+    width: 500px;
+    height: 500px;
+    right:-80%;
+    border: 75px solid rgb(168, 149, 255);
+  }
+  .text{
+    position:absolute;
+    width:100%;
+    text-align: center;
+  }
+  .text h1{
+    font-size:3em;
+  }
+  .text a{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+  .explore-btn{
+    justify-content: center;
+    width:100%;
+  }
+  .container{
+    height: 100%;
+  }
+  .wrapper{
+    height: fit-content;
+    flex-direction: column;
+  }
+  .car-text h1{
+    font-size:2em;
+  }
+  .car-text p{
+    font-size:1em;
+  }
+  .bg-car{
+    padding:5rem 0;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+  }
+  .discover-btn{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    width:100%;
+  }
+  .ferrari {
+    display:none;
+  }
+  .interest a{
+    display:flex;
+    justify-content: center;
+  }
+  .wrapper-reviews{
+    flex-direction: column;
+  }
+  .interest{
+    flex-direction:column;
+    padding:0;
+  }
+  .interest h1{
+    font-size:1.4em;
+  }
+  footer{
+    height:140vh;
+  }
+  .contact{
+    flex-direction: column;
+    gap:30px;
+    padding:2rem 0rem;
+  }
+  .maps{
+    width:350px;
+    height: 350px;
+  }
+  .contact-info h1{
+    font-size:1.5em;
+  }
+
+}
+@media all and (max-width: 350px){
+  .lambo{
+    display:none;
+  }
+
+  nav{
+    display:none;
+  }
+
+  .square{
+    width: 500px;
+    height: 500px;
+    right:-80%;
+    border: 75px solid rgb(168, 149, 255);
+  }
+  .text{
+    position:absolute;
+    width:100%;
+    text-align: center;
+  }
+  .text h1{
+    font-size:3em;
+  }
+  .text a{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+  .explore-btn{
+    justify-content: center;
+    width:100%;
+  }
+  .container{
+    height: 100%;
+  }
+  .wrapper{
+    height: fit-content;
+    flex-direction: column;
+  }
+  .car-text h1{
+    font-size:2em;
+  }
+  .car-text p{
+    font-size:1em;
+  }
+  .bg-car{
+    padding:5rem 0;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+  }
+  .discover-btn{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    width:100%;
+  }
+  .ferrari {
+    display:none;
+  }
+  .interest a{
+    display:flex;
+    justify-content: center;
+  }
+  .wrapper-reviews{
+    flex-direction: column;
+  }
+  .interest{
+    flex-direction:column;
+    padding:0;
+  }
+  .interest h1{
+    font-size:1.4em;
+  }
+  footer{
+    height:140vh;
+  }
+  .contact{
+    flex-direction: column;
+    gap:30px;
+    padding:2rem 0rem;
+  }
+  .maps{
+    width:350px;
+    height: 350px;
+  }
+  .contact-info h1{
+    font-size:1.5em;
+  }
+
+}
+@media all and (max-width: 250px){
+  .lambo{
+    display:none;
+  }
+
+  nav{
+    display:none;
+  }
+
+  .square{
+    width: 500px;
+    height: 250px;
+    right:-80%;
+    border: 75px solid rgb(168, 149, 255);
+  }
+  .text{
+    position:absolute;
+    width:100%;
+    text-align: center;
+  }
+  .text h1{
+    font-size:2.5em;
+  }
+  .text a{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+  }
+  .explore-btn{
+    justify-content: center;
+    width:100%;
+  }
+  .container{
+    height: 100%;
+    padding:0;
+  }
+  .wrapper{
+    height: fit-content;
+    flex-direction: column;
+  }
+  .car-text h1{
+    font-size:2em;
+  }
+  .car-text p{
+    font-size:1em;
+  }
+  .bg-car{
+    padding:5rem 0;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+  }
+  .review-h1 {
+    width: 100%;
+    text-align: center;
+    color: #f2f2f2;
+    text-shadow: 3px 3px 5px lightskyblue;
+    font-size: 3.5em;
+}
+  .wrapper-reviews{
+    padding:1rem;
+  }
+  .review{
+    padding:3rem 1rem;
+  }
+  .discover-btn{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    width:100%;
+  }
+  .ferrari {
+    display:none;
+  }
+  .interest a{
+    display:flex;
+    justify-content: center;
+  }
+  .wrapper-reviews{
+    flex-direction: column;
+  }
+  .interest{
+    flex-direction:column;
+    padding:0;
+  }
+  .interest h1{
+    font-size:1.4em;
+  }
+  footer{
+    height:60vh;
+  }
+  .contact{
+    flex-direction: column;
+    gap:30px;
+    padding:2rem 0rem;
+  }
+  .maps {
+    width: 200px;
+    height: 200px;
+  }
+  .contact-info h1{
+    font-size:1em;
+  }
+  .text h2 {
+    color: blue;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+  .about{
+    font-size:2em;
+  }
+}
